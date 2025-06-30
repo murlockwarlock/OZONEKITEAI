@@ -1,0 +1,5 @@
+aiohttp
+web3
+fake_useragent
+cryptography
+requests 
