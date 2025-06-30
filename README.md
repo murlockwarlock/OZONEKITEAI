@@ -33,10 +33,9 @@
 
 4.  **Настройте конфигурацию:**
 
-    * **`accounts.txt`**: Добавьте сюда ваши аккаунты в формате `приватный_ключ:neo_session:refresh_token`. `neo_session` и `refresh_token` можно оставить пустыми, но двоеточия нужны: `приватный_ключ::`.
+    * **`accounts.txt`**: Добавьте сюда ваши аккаунты в формате `приватный_ключ`.
         ```
-        0xabc...123::
-        0xdef...456:some_session_token:some_refresh_token
+        0xabc...123
         ```
 
     * **`proxies.txt`**: Добавьте ваши прокси в формате `http://login:password@ip:port` или `http://ip:port`.
@@ -60,7 +59,7 @@
         ```
 
     * **Настройте API-ключ 2Captcha:**
-        Внутри скрипта (`main.py` или `bot.py`) найдите строку `self.TWO_CAPTCHA_API_KEY = "..."` и вставьте ваш ключ.
+        Внутри скрипта (`main.py` или `bot.py`) найдите строку Class Config `self.TWO_CAPTCHA_API_KEY = "..."` и вставьте ваш ключ.
 
 ## ▶️ Запуск
 
